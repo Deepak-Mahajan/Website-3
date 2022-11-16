@@ -34,6 +34,20 @@ nav ul li a {
   margin: 0 45px;
 }
 
+.video-section {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  /* border: 2px solid red; */
+}
+.video-section div {
+  /* border: 2px solid red; */
+  height: 900px;
+  width: 90%;
+}
+
 .section-1 {
   display: flex;
   height: 600px;
