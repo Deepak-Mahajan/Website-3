@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 nav {
@@ -8,7 +9,6 @@ nav {
   align-items: center;
   justify-content: flex-end;
   height: 100px;
-  background-color: black;
 }
 
 nav div {
@@ -39,11 +39,8 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  /* border: 2px solid red; */
 }
 .video-section div {
-  /* border: 2px solid red; */
   height: 900px;
   width: 90%;
 }
@@ -53,7 +50,6 @@ nav ul li a {
   height: 600px;
   justify-content: center;
   align-items: center;
-  background-color: black;
 }
 
 .section-1 div {
@@ -73,7 +69,6 @@ nav ul li a {
   height: 700px;
   justify-content: center;
   align-items: center;
-  background-color: black;
 }
 .section-2 .section-2-image {
   display: flex;
@@ -118,7 +113,6 @@ nav ul li a {
   height: 600px;
   justify-content: center;
   align-items: center;
-  background-color: black;
 }
 .section-3 div {
   display: flex;
@@ -138,7 +132,6 @@ nav ul li a {
   display: flex;
   height: 480px;
   justify-content: space-evenly;
-  background-color: black;
 }
 
 .section-4 div {
