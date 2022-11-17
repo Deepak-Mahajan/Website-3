@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   background-color: black;
+  font-family: Whyte Book, "system-ui", -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica, Helvetica Neue, Arial, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, "sans-serif";
 }
 
 nav {
@@ -47,7 +50,7 @@ nav ul li a {
 
 .section-1 {
   display: flex;
-  height: 600px;
+  height: 480px;
   justify-content: center;
   align-items: center;
 }
@@ -56,8 +59,9 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 400px;
-  width: 700px;
+  width: 710px;
 }
 .section-1 strong {
   font-size: 3.3rem;
@@ -102,7 +106,7 @@ nav ul li a {
   margin: 30px 0;
   background-color: white;
   color: black;
-  width: 100px;
+  width: 110px;
   padding: 17px;
   border-radius: 30px;
   text-decoration: none;
@@ -120,7 +124,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   height: 400px;
-  width: 600px;
+  width: 640px;
 }
 
 .section-3 strong {
@@ -137,4 +141,104 @@ nav ul li a {
 .section-4 div {
   height: 450px;
   width: 45%;
+}
+
+.section-5 {
+  height: 200px;
+}
+
+.section-5 div {
+  height: 200px;
+  width: 40%;
+  float: left;
+}
+.section-5-container1 {
+  margin-left: 44px;
+}
+
+.section-5-container2 {
+  margin-left: 125px;
+}
+.section-5-text {
+  color: white;
+  line-height: 25px;
+}
+.section-5-heading {
+  margin-bottom: 20px;
+}
+
+.section-6 {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.section-6 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 790px;
+}
+
+.section-6 strong {
+  font-size: 3.3rem;
+  color: white;
+}
+
+.section-7 {
+  height: 210px;
+}
+
+.section7-container {
+  display: flex;
+  flex-direction: column;
+  height: 190px;
+  width: 15%;
+  float: left;
+}
+.section7-container a {
+  text-decoration: none;
+  color: white;
+  margin-left: 70px;
+  margin-bottom: 31px;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 25px;
+}
+footer div {
+  display: flex;
+  width: 32%;
+}
+
+.footer-btn {
+  border-color: white;
+  border-radius: 30px;
+  color: white;
+  margin: 10px;
+  padding: 19px;
+  cursor: pointer;
+}
+
+.footer-item-padding {
+  padding: 20px;
+}
+
+.image-section {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-section div {
+  height: 100px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
